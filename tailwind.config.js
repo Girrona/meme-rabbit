@@ -13,6 +13,7 @@ module.exports = {
       // => @media (max-width: 1023px) { ... }
 
       md: { max: "800px" },
+      mdx: { max: "960px" },
       mdn: { max: "920px" },
       mdd: { max: "720px" },
       // => @media (max-width: 767px) { ... }
