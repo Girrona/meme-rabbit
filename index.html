@@ -27,33 +27,37 @@
             />
           </span>
         </div>
-        <ul class="sm:hidden flex items-center text-white">
-          <li class="mx-4"><a href="./index.html" class="text-xl"></a>Home</li>
-          <li class="mx-4"><a href="" class="text-xl"></a>Telegram</li>
-          <li class="mx-4"><a href="" class="text-xl"></a>Twitter</li>
-          <li class="mx-4"><a href="https://rabbit-organization.gitbook.io/untitled" class="text-xl"></a>Doc's</li>
-          <!-- <li class="mx-4"><a href="#" class="text-xl"></a>Doc's</li> -->
-        </ul>
-        <div
-          onclick="showSideBar()"
-          class="hidden text-center cursor-pointer sm:flex items-center justify-center"
-        >
-          <h1>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="24"
-              viewBox="0 -960 960 960"
-              width="24"
-              fill="white"
-            >
-              <path
-                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
-              />
-            </svg>
-          </h1>
+        <div>
+          <div
+            class="hidden mdn:flex justify-center p-4 mx-auto bg-white/80 transition hover:translate-y-1 hover:text-white hover:bg-blue-700 duration-1000 ease-in-out w-full h-10 text-black font-semibold rounded-lg items-center"
+          >
+            <a href="" class="text-xl smm:text-base">Buy $Rat</a>
+          </div>
         </div>
+        <ul class="mdn:hidden flex items-center text-white">
+          <li class="mx-4"><a href="./index.html" class="text-xl">Home</a></li>
+          <li class="mx-4">
+            <a href="https://t.me/memerabbitofficial" class="text-xl"
+              >Telegram</a
+            >
+          </li>
+          <li class="mx-4">
+            <a href="https://x.com/MemeRabbitoff" class="text-xl">Twitter</a>
+          </li>
+          <li class="mx-4">
+            <a
+              href="https://rabbit-organization.gitbook.io/untitled"
+              class="text-xl"
+            ></a
+            >Doc's
+          </li>
+          <li class="mx-4">
+            <a href="./components/learnToBuy.html" class="text-xl">Learn To Buy</a>
+          </li>
+        </ul>
+
         <ul
-          class="sidebar flex-col fixed top-0 right-0 pt-14 text-center w-[350px] h-[100vh] space-y-10 items-center text-black"
+          class="sidebar flex-col fixed top-20 right-0 text-center w-[350px] sm:w-[250px] h-[100vh] items-center text-black"
         >
           <li
             class="cursor-pointer w-full flex items-center justify-center"
@@ -61,9 +65,9 @@
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="24"
+              height="64"
               viewBox="0 -960 960 960"
-              width="24"
+              width="64"
               fill="white"
             >
               <path
@@ -74,28 +78,62 @@
           <li
             class="hover:bg-black/70 hover:text-white text-xl w-full p-4 cursor-pointer mx-4"
           >
-            <a href="./index.html" class="text-xl"></a>Home
+            <a href="./index.html" class="text-xl">Home</a>
           </li>
           <li
             class="hover:bg-black/70 hover:text-white text-xl w-full p-4 cursor-pointer mx-4"
           >
-            <a href="" class="text-xl">Telegram</a>
+            <a href="https://t.me/memerabbitofficial" class="text-xl"
+              >Telegram</a
+            >
           </li>
           <li
             class="hover:bg-black/70 hover:text-white text-xl w-full p-4 cursor-pointer mx-4"
           >
-            <a href="" class="text-xl">Twitter</a>
+            <a href="https://x.com/MemeRabbitoff" class="text-xl">Twitter</a>
           </li>
           <li
             class="hover:bg-black/70 hover:text-white text-xl w-full p-4 cursor-pointer mx-4"
           >
-            
-          <a href="https://rabbit-organization.gitbook.io/untitled" class="text-xl">Doc's</a>
+            <a
+              href="https://rabbit-organization.gitbook.io/untitled"
+              class="text-xl"
+              >Doc's</a
+            >
           </li>
-          <!-- <li class=" hover:bg-black/70 w-full p-4 cursor-pointer mx-4">
-              <a href="#" class="text-xl"></a>Doc's
-            </li> -->
+          <li class="hover:bg-black/70 w-full p-4 cursor-pointer mx-4">
+            <a href="#tutorial" class="text-xl">Learn to buy</a>
+          </li>
+          <li class="hover:bg-black/70 w-full p-4 cursor-pointer mx-4">
+            <a href="" class="text-xl">Buy $Rat</a>
+          </li>
         </ul>
+        <div>
+          <div
+            class="flex mdn:hidden justify-center p-4 mx-auto bg-white/80 transition hover:translate-y-1 hover:text-white hover:bg-blue-700 duration-1000 ease-in-out w-full h-10 text-black font-semibold rounded-lg items-center"
+          >
+            <a href="" class="text-xl">Buy $Rat</a>
+          </div>
+        </div>
+
+        <div
+          onclick="showSideBar()"
+          class="hidden text-center cursor-pointer mdn:flex items-center justify-center"
+        >
+          <h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="34"
+              viewBox="0 -960 960 960"
+              width="34"
+              fill="white"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </h1>
+        </div>
       </nav>
     </Navbar>
 
@@ -112,6 +150,24 @@
             engage and jumb right high up to the moon and sit as Kings in the
             crypto world.
           </h1>
+          <div class="flex space-x-4 p-5">
+            <a href="https://t.me/memerabbitofficial">
+                <img src="../pages/assets/imageTelegram.png" class="w-10 h-10 rounded-full" alt="metasmask">
+            </a>
+            <a href="https://x.com/MemeRabbitoff">
+                <img src="../pages/assets/imageTwitter.png" class="w-10 h-10 rounded-full" alt="metasmask">
+            </a>
+            <a href="">
+                <img src="../pages/assets/imageOre.png" class="w-10 h-10 rounded-full" alt="metasmask">
+            </a>
+            <a href="h">
+                <img src="../pages/assets/imageOreDex.png" class="w-10 h-10 rounded-full" alt="metasmask">
+            </a>
+            <a href="https://metamask.io/download/">
+                <img src="../pages/assets/imageMetamask.png" class="w-10 h-10 rounded-full" alt="metasmask">
+            </a>
+            <!--  -->
+        </div>
         </div>
         <div class="rounded-xl flex-1 grid place-items-center">
           <div class="picture1">
@@ -155,6 +211,7 @@
     </section>
 
     <section class="w-full h-full grid place-items-center">
+      <a name="about"></a>
       <div
         class="flex justify-between items-center space-x-6 w-[80%] sm:space-y-7 sm:w-full lg:flex-col-reverse"
       >
@@ -180,7 +237,7 @@
 
     <section class="w-full h-full grid place-items-center pt-24 p-2">
       <div>
-        <h1 class="text-5xl font-bold tracking-wider p-8">Roadmap</h1>
+        <h1 class="text-5xl font-bold tracking-wider p-8">$RAT Roadmap</h1>
       </div>
       <div
         class="grid grid-cols-3 mdn:grid mdn:grid-cols-1 place-content-center place-items-center gap-4 w-[90%]"
@@ -267,40 +324,30 @@
       </div>
     </section>
 
-    <!-- <div class="grid grid-cols-6 gap-4 w-full h-full">
-        <div class="col-start-2 col-span-4 bg-white ...">01</div>
-        <div class="col-start-1 col-end-3  bg-white ...">02</div>
-        <div class="col-end-7 col-span-2   bg-white ..">03</div>
-        <div class="col-start-1 col-end-7  bg-white ...">04</div>
-      </div> -->
-
     <footer class="w-full h-full mt-24 border-t-4">
       <div class="grid place-items-center p-4">
         <div class="footerImg">
           <img src="./pages/assets/rabbitLogo.png" alt="" />
         </div>
-        <ul class="flex items-center space-x-4">
-          <li class="">
-            <a href="#"><i class="fa-brands fa-x-twitter fa-34"></i></a>
-          </li>
-          <li class="">
-            <a href="#"><i class="fa-brands fa-telegram"></i></a>
-          </li>
-          <li class="">
-            <a href="#"><i class="fa-thin fa-file-doc"></i></a>
-          </li>
-        </ul>
-      </div>
-      <div class="grid place-items-center p-4 text-center">
-        <h1 class="w-[50%] text-sm sm:w-full">
-          <span class="font-semibold text-xl">Disclaimer:</span> <br />
-          Crypto Currency investments are subject to market risks. Do your own
-          research before investing. High rewards come along with High risks as
-          well. The team or the creators of this token ($RABBIT) or project
-          (MEME RABBIT) are not held responsible in any way for your loss or
-          profit for that matter for the duration of your investment in the
-          same.
-        </h1>
+        
+        <div class="flex space-x-4 p-5">
+            <a href="https://t.me/memerabbitofficial">
+                <img src="../pages/assets/imageTelegram.png" class="w-10 h-10 rounded-full" alt="metasmask">
+            </a>
+            <a href="https://x.com/MemeRabbitoff">
+                <img src="../pages/assets/imageTwitter.png" class="w-10 h-10 rounded-full" alt="metasmask">
+            </a>
+            <a href="">
+                <img src="../pages/assets/imageOre.png" class="w-10 h-10 rounded-full" alt="metasmask">
+            </a>
+            <a href="h">
+                <img src="../pages/assets/imageOreDex.png" class="w-10 h-10 rounded-full" alt="metasmask">
+            </a>
+            <a href="https://metamask.io/download/">
+                <img src="../pages/assets/imageMetamask.png" class="w-10 h-10 rounded-full" alt="metasmask">
+            </a>
+            <!--  -->
+        </div>
       </div>
       <div class="grid place-items-center p-4">
         <h1 class="backdrop-blur-xl text-black p-4 rounded-2xl bg-gray-400">

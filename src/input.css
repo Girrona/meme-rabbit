@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+    .learnToBuy{
+        @apply mt-4 rounded-xl mdn:w-full p-4 w-[70%] bg-gradient-to-t from-[#dabd90] to-[#C3A576]
+    }
+
+    .learToBuyText{
+        @apply text-3xl mdd:text-lg font-medium capitalize font-sans
+    }
+}
+
 body {
   background-image: url("../pages/assets/spottedBg.jpg");
   color: white;
@@ -10,8 +20,9 @@ body {
 .sidebar {
   display: none;
   background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  /* color: #ff0000; */
 }
 
 .sidebar li {
@@ -47,6 +58,17 @@ body {
 .picture1 {
   width: 350px;
   height: 350px;
+}
+
+.learnPic1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+  }
+
+.learnPic1{
+    width: 350px;
+    height: 197px;
 }
 
 @media only screen and (max-width: 650px) {
